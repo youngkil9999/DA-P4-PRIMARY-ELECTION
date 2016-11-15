@@ -1,4 +1,7 @@
-```
+
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/1.png)
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -516,4 +519,3 @@ $(document).ready(function () {
 
 </body>
 </html>
-```
