@@ -184,12 +184,22 @@ $(document).ready(function () {
 <div id="univariate-plots-section" class="section level1">
 <h1>Univariate Plots Section</h1>
 <div id="the-result-presented-top-five-candidates-by-contribution-count.-ted-cruz-was-the-first-place-and-bernard-sanders-was-the-second-place.clinton-hillary-took-4th-place" class="section level5">
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/1.png)
+
+
 <h5>The result presented Top five candidates by contribution count. Ted Cruz was the first place and Bernard Sanders was the second place.Clinton Hillary took 4th place</h5>
 </div>
 <div id="then-lets-see-the-economical-index-in-al-where-is-the-most-popular-place-to-live-in-al-and-how-much-they-contributed-for-their-candidate." class="section level5">
 <h5>Then, Let’s see the economical index in AL, where is the most popular place to live in AL and how much they contributed for their candidate.</h5>
 </div>
 <div id="there-are-too-many-cities-existed-but-i-presented-top-ten-big-cities-in-al-from-the-data.-so-i-think-we-could-figure-out-who-is-popular-in-al-by-comparing-those-top-ten-cities-because-they-could-represent-the-alabama-people" class="section level5">
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/2.png)
+
+
 <h5>There are too many cities existed but I presented top ten big cities in AL from the data. So, I think we could figure out who is popular in AL by comparing those top ten cities because they could represent the Alabama people</h5>
 <pre><code>## 
 ##  Shapiro-Wilk normality test
@@ -206,16 +216,36 @@ $(document).ready(function () {
 ## 
 ## data:  ggplot_build(histogram2)$data[[1]]$count
 ## W = 0.71828, p-value = 0.001468</code></pre>
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/3.png)
+
+
 <p>contribution amount is highst arount $70 in total. Almost of contribution amount below $2500</p>
 </div>
 <div id="this-plot-shows-how-much-each-candidate-were-contributed-and-the-order-based-on-the-popularity-level.-ted-took-the-first-place-as-expected-but-sanders-was-second-place-in-popularity-but-he-didnt-get-much-amount-of-money-in-the-election-even-less-than-hillary-rubio." class="section level5">
 <h5>This plot shows how much each candidate were contributed and the order based on the popularity level. Ted took the first place as expected but sanders was second place in popularity but he didn’t get much amount of money in the election even less than hillary, rubio.</h5>
 </div>
 <div id="plot-is-for-contributors-job.-what-kinds-of-people-supported-their-candidate.-mostly-retired-people-supported-a-lot-more-than-any-other-employees.-it-is-kind-of-surprising." class="section level5">
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/4.png)
+
+
 <h5>Plot is for contributor’s job. what kinds of people supported their candidate. Mostly, retired people supported a lot more than any other employees. it is kind of surprising.</h5>
 </div>
 <div id="this-plot-is-for-a-contributors-name-along-with-the-frequency.-i-just-could-figure-out-one-contributor-named-guevara-supported-some-candidates-a-lot-more-than-others." class="section level5">
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/5.png)
+
+
 <h5>This plot is for a contributor’s name along with the frequency. I just could figure out one contributor, named GUEVARA, supported some candidates a lot more than others.</h5>
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/6.png)
+
+
 <pre><code>##  [1]    4    0    1    5   25  133  147  168  143  372  357  521  546  691
 ## [15]  887 1253 1238 1089 1487 1130 2349 3234 2870 2631 2108  256</code></pre>
 <pre><code>## 
@@ -226,6 +256,15 @@ $(document).ready(function () {
 <p>Tried to use shapiro on the histogram. W = 0.84241, p-value = 0.001017 p-value not distributed well. almost closed to zero.</p>
 </div>
 <div id="adjust-several-different-bins-of-x-scale-of-date.-i-could-figure-out-end-of-each-month-contribution-frequency-was-getting-peak.-as-is-on-the-first-plot-i-could-know-mostly-much-of-the-contributed-money-from-end-of-every-month.-i-am-not-sure-why-but-i-got-my-paystub-almost-end-of-month.-so-they-have-money-enough-to-send-their-candidate." class="section level5">
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/7.png)
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/8.png)
+
+
+
 <h5>Adjust several different bins of x scale of date. I could figure out end of each month contribution frequency was getting peak. As is on the first plot, I could know mostly much of the contributed money from end of every month. I am not sure why but I got my paystub almost end of month. So, they have money enough to send their candidate.</h5>
 </div>
 </div>
@@ -277,6 +316,11 @@ $(document).ready(function () {
 <div id="bivariate-plots-section" class="section level1">
 <h1>Bivariate Plots Section</h1>
 <div id="picture-above-is-for-2015-and-2016-monthly-contribution-frequency.-2016-people-contributed-a-lot-more-than-2015-because-the-election-is-coming-almost-around-the-corner" class="section level5">
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/9.png)
+
+
 <h5>Picture above is for 2015 and 2016 monthly contribution frequency. 2016 people contributed a lot more than 2015 because the election is coming almost around the corner</h5>
 <pre><code>##  [1] BUGGAY, DAVID S. MR.        MEISLER, HERBERT A. MR.    
 ##  [3] HIPP, GEORGE                KYNERD, KEVIN B. MR.       
@@ -291,6 +335,11 @@ $(document).ready(function () {
 ## 5165 Levels: AARON, JOAN AARON, JOAN J. MRS. ... ZWAHLEN, RENE</code></pre>
 </div>
 <div id="changed-the-raw-data-to-subset-of-contribution-amount-more-than-0-and-removed-the-refunded-amount-of-money-from-the-data.-i-wanted-to-see-countribution-amount-of-10-people-from-the-top-and-from-the-bottom.-top-10-people-are-almost-10003000-times-much-more-amount-of-contribution-than-10-people-from-the-bottom" class="section level5">
+
+
+[alt tab](https://github.com/youngkil9999/Project4/blob/master/10.png)
+
+
 <h5>Changed the raw data to subset of contribution amount more than $0 and removed the refunded amount of money from the data. I wanted to see countribution amount of 10 people from the top and from the bottom. top 10 people are almost 1000~3000 times much more amount of contribution than 10 people from the bottom</h5>
 </div>
 <div id="ted-cruz-was-supported-the-most-but-average-contribution-amount-is-less-than-100.-on-the-contrary-jeb-bush-was-contributed-from-the-5th-on-the-list-but-the-average-amount-is-around-1000-and-the-median-value-seems-like-250.-maybe-rich-people-like-to-support-bush." class="section level5">
