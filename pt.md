@@ -186,7 +186,7 @@ $(document).ready(function () {
 <div id="the-result-presented-top-five-candidates-by-contribution-count.-ted-cruz-was-the-first-place-and-bernard-sanders-was-the-second-place.clinton-hillary-took-4th-place" class="section level5">
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/1.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/1.png)
 
 
 <h5>The result presented Top five candidates by contribution count. Ted Cruz was the first place and Bernard Sanders was the second place.Clinton Hillary took 4th place</h5>
@@ -197,7 +197,7 @@ $(document).ready(function () {
 <div id="there-are-too-many-cities-existed-but-i-presented-top-ten-big-cities-in-al-from-the-data.-so-i-think-we-could-figure-out-who-is-popular-in-al-by-comparing-those-top-ten-cities-because-they-could-represent-the-alabama-people" class="section level5">
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/2.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/2.png)
 
 
 <h5>There are too many cities existed but I presented top ten big cities in AL from the data. So, I think we could figure out who is popular in AL by comparing those top ten cities because they could represent the Alabama people</h5>
@@ -229,7 +229,7 @@ $(document).ready(function () {
 <div id="plot-is-for-contributors-job.-what-kinds-of-people-supported-their-candidate.-mostly-retired-people-supported-a-lot-more-than-any-other-employees.-it-is-kind-of-surprising." class="section level5">
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/4.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/4.png)
 
 
 <h5>Plot is for contributor’s job. what kinds of people supported their candidate. Mostly, retired people supported a lot more than any other employees. it is kind of surprising.</h5>
@@ -237,13 +237,13 @@ $(document).ready(function () {
 <div id="this-plot-is-for-a-contributors-name-along-with-the-frequency.-i-just-could-figure-out-one-contributor-named-guevara-supported-some-candidates-a-lot-more-than-others." class="section level5">
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/5.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/5.png)
 
 
 <h5>This plot is for a contributor’s name along with the frequency. I just could figure out one contributor, named GUEVARA, supported some candidates a lot more than others.</h5>
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/6.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/6.png)
 
 
 <pre><code>##  [1]    4    0    1    5   25  133  147  168  143  372  357  521  546  691
@@ -258,10 +258,10 @@ $(document).ready(function () {
 <div id="adjust-several-different-bins-of-x-scale-of-date.-i-could-figure-out-end-of-each-month-contribution-frequency-was-getting-peak.-as-is-on-the-first-plot-i-could-know-mostly-much-of-the-contributed-money-from-end-of-every-month.-i-am-not-sure-why-but-i-got-my-paystub-almost-end-of-month.-so-they-have-money-enough-to-send-their-candidate." class="section level5">
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/7.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/7.png)
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/8.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/8.png)
 
 
 
@@ -318,7 +318,7 @@ $(document).ready(function () {
 <div id="picture-above-is-for-2015-and-2016-monthly-contribution-frequency.-2016-people-contributed-a-lot-more-than-2015-because-the-election-is-coming-almost-around-the-corner" class="section level5">
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/9.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/9.png)
 
 
 <h5>Picture above is for 2015 and 2016 monthly contribution frequency. 2016 people contributed a lot more than 2015 because the election is coming almost around the corner</h5>
@@ -337,7 +337,7 @@ $(document).ready(function () {
 <div id="changed-the-raw-data-to-subset-of-contribution-amount-more-than-0-and-removed-the-refunded-amount-of-money-from-the-data.-i-wanted-to-see-countribution-amount-of-10-people-from-the-top-and-from-the-bottom.-top-10-people-are-almost-10003000-times-much-more-amount-of-contribution-than-10-people-from-the-bottom" class="section level5">
 
 
-[alt tab](https://github.com/youngkil9999/Project4/blob/master/10.png)
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/10.png)
 
 
 <h5>Changed the raw data to subset of contribution amount more than $0 and removed the refunded amount of money from the data. I wanted to see countribution amount of 10 people from the top and from the bottom. top 10 people are almost 1000~3000 times much more amount of contribution than 10 people from the bottom</h5>
