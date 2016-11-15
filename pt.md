@@ -75,10 +75,13 @@
 </div>
 <div id="univariate-plots-section" class="section level1">
 <h1>Univariate Plots Section</h1>
+
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/1.png)
+
+
 <div id="the-result-presented-top-five-candidates-by-contribution-count.-ted-cruz-was-the-first-place-and-bernard-sanders-was-the-second-place.clinton-hillary-took-4th-place" class="section level5">
 
 
-![alt tag](https://github.com/youngkil9999/Project4/blob/master/1.png)
 
 
 <h5>The result presented Top five candidates by contribution count. Ted Cruz was the first place and Bernard Sanders was the second place.Clinton Hillary took 4th place</h5>
