@@ -76,7 +76,6 @@ summary(dt)
 # head(dt)
 ```
 
-
 ##### 23645 people choice recorded for election 23 columns information saved
 
 
@@ -113,6 +112,7 @@ cdt_ppl <- qplot(data=dt, x = cand_nm, main = 'Candidate Popularity in AL')+
 
 cdt_ppl + coord_cartesian(xlim = c(1,5))
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/1.png)
 
 ##### The result presented Top five candidates by contribution count. Ted Cruz was the first place and Bernard Sanders was the second place.Clinton Hillary took 4th place
 
@@ -138,6 +138,7 @@ ggplot(contbr_ct, aes(City, Count),
 
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/2.png)
 
 
 ##### There are too many cities existed but I presented top ten big cities in AL from the data. So, I think we could figure out who is popular in AL by comparing those top ten cities because they could represent the Alabama people
@@ -176,6 +177,7 @@ cnt_amt <- ggplot(data = dt, aes(cand_nm, contb_receipt_amt))+
 
 
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/3.png)
 
 ##### This plot shows how much each candidate were contributed and the order based on the popularity level. Ted took the first place as expected but sanders was second place in popularity but he didn't get much amount of money in the election even less than hillary, rubio.
 
@@ -192,6 +194,7 @@ ggplot(contbr_emp, aes(Employer, Count), main = "Contributor Employer")+
 
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/4.png)
 
 #####Plot is for contributor's job. what kinds of people supported their candidate. Mostly, retired people supported a lot more than any other employees. it is kind of surprising.
 
@@ -211,6 +214,7 @@ ggplot(contbr_name, aes(Contributor, Count), main = "top ten contributor") +
   scale_x_discrete(labels = function(Contributor) str_wrap(Contributor, width = 15))
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/5.png)
 
 #####This plot is for a contributor's name along with the frequency. I just could figure out one contributor, named GUEVARA, supported some candidates a lot more than others.
 
@@ -223,6 +227,9 @@ shapiro.test(his_pc$counts)
 
 
 ```
+
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/6.png)
+
 
 Tried to use shapiro on the histogram.
 W = 0.84241, p-value = 0.001017
@@ -246,6 +253,9 @@ hist_date <- ggplot(data = dt, aes(modifiedDate, ..count..),
 
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/7.png)
+
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/8.png)
 
 #####Adjust several different bins of x scale of date. I could figure out end of each month contribution frequency was getting peak. As is on the first plot, I could know mostly much of the contributed money from end of every month. I am not sure why but I got my paystub almost end of month. So, they have money enough to send their candidate.
 
@@ -304,6 +314,7 @@ grid.arrange(date_plot1, date_plot2, ncol = 2)
 
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/9.png)
 
 #####Picture above is for 2015 and 2016 monthly contribution frequency. 2016 people contributed a lot more than 2015 because the election is coming almost around the corner
 
@@ -359,6 +370,7 @@ biplot2 <- ggplot(data = name_tb[(length(name_tb$name)-9):length(name_tb$name),]
 grid.arrange(biplot1, biplot2, ncol = 2)
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/10.png)
 
 ##### Changed the raw data to subset of contribution amount more than $0 and removed the refunded amount of money from the data. I wanted to see countribution amount of 10 people from the top and from the bottom. top 10 people are almost 1000~3000 times much more amount of contribution than 10 people from the bottom
 
@@ -397,6 +409,7 @@ cont_bar <- ggplot(data=dt, aes(cand_nm, contb_receipt_amt)) +
 
 grid.arrange(cont_point, cont_bar, ncol = 2)
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/11.png)
 
 
 #####Ted cruz was supported the most but average contribution amount is less than $100. on the contrary, Jeb bush was contributed from the 5th on the list but the average amount is around $1,000 and the median value seems like $250. maybe rich people like to support Bush.
@@ -412,6 +425,7 @@ ggplot(data = dt, aes(cand_nm, contb_receipt_amt)) +
   labs(x = "Candidate", y = "Amount")
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/12.png)
 
 ##### box plot which shows the similar plot as above, median, mean.
 
@@ -430,6 +444,7 @@ log_date2 <- log_date + scale_y_sqrt()
 
 grid.arrange(log_date3, log_date1, log_date2, ncol = 3)
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/13.png)
 
 
 ##### High percentage of contribution amount stays below $1,000 and next strip is around $1,000 and small strip around $2,000 Next strip looks like around $3,000 and a few of line around $6,000.
@@ -453,6 +468,7 @@ retired_plot2 <- ggplot(data = subset(dt, contbr_occupation == "RETIRED"),
 grid.arrange(retired_plot1, retired_plot2, nrow = 2)
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/14.png)
 
 ##### Retired people mostly contributed a lot of money on the election. Clinton and Ted cruz are getting contributed as time goes by. Sanders and Rubio doesn't seem like contributed steadily.
 
@@ -478,6 +494,7 @@ ggplot(data = subset(retired_dt, contb_receipt_amt>0),
 
 ```
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/15.png)
 
 ##### Daily mean and sum/10 contribution amount. just wanted to try other plots.
 ##### nothing special can be noticed. mean value is almost similar of all time but summation of the contribution getting increased. so we could think people are participating more contribution for their candidate.
@@ -517,6 +534,7 @@ ggplot(data = Cost_Popular_Table,
   geom_point(data = Cost_Popular_Table, aes(Candidate, Mean))+
   scale_y_continuous(trans = 'sqrt')
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/17.png)
 
 #####Popularity and Mean value. Ted Cruze got contribution a lot compared to mean costs even though the amount of cost was small he got lots of contribution. As popularity goes lower, Mean value normally higher
 
@@ -539,6 +557,7 @@ five_box2 <- ggplot(data = dt_seven, aes(cand_nm, contb_receipt_amt))+
 
 grid.arrange(five_box, five_box2, ncol=2)
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/18.png)
 
 #####As expected earlier, Ted and Benjamin got a lot of money. a few of them are over $10,000. Benjamin is mostly higher than the other four candidate. Other four candidate almost same amount of 75% of offset average
 
@@ -553,6 +572,7 @@ title_xy(city_amt1,
          "Top five Contribution Amount box plot by City", "City", "Amount")
 
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/19.png)
 
 # Bivariate Analysis
 
@@ -613,6 +633,7 @@ amount_p <- ggplot(dt_seven, aes(contbr_city))+
 amount_p
 # grid.arrange(amount_pp, amount_p, nrow =2 )
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/20.png)
 
 ##### montgomery, Tuscaloosa supported democratic party more than republican and Hillary was supported the most in those cities. In other cities, mostly republican candidates were contributed highly.
 
@@ -631,6 +652,7 @@ count_p <- ggplot(dt_seven, aes(contbr_city))+
 
 grid.arrange(amount_pp,count_p, nrow =2 )
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/21.png)
 
 ##### In Democrat, Sanders mostly more often contributed than hillary even though the amounts were small. In Republican, Ted cruze dominated the contribution frequency mostly all other cities.
 
@@ -673,6 +695,7 @@ city_month2 <- title_xy(city_month2,
 
 grid.arrange(city_month2, city_month1, nrow=2)
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/22.png)
 
 ##### 2015, December Birmingham and huntsville contributed more than normal
 ##### In 2016, April seems like less than expected. it's because the data collected in the middle of the month I guess.
@@ -689,6 +712,7 @@ mnthly_amt1 <- ggplot(data = dt_seven, aes(modifiedDate, contb_receipt_amt))+
 
 mnthly_amt1
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/23.png)
 
 ##### Monthly mean value for top five candidates
 
@@ -773,6 +797,7 @@ ggplot(data = dt, aes(dt$cand_nm, contb_receipt_amt))+
 # grid.arrange(dt_pop, dt_cont, ncol = 2)
 
 ```
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/24.png)
 
 ### Description One
 ##### There are relationship between the candidate popularity and contribution amount for sure. just doesn't match well for some candidate. Normally, we could think if there are many people support a candidate, the candidate will get more contribution which is true. As you can check left and right plot. Mostly, high ranked candidates who received a lot of contribution are popular in Alabama except for Bush Jeb.
@@ -796,14 +821,14 @@ plot_two1
 #  
 # grid.arrange(plot_two1, plot_two2, ncol=2)
 
-```
+
+
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/25.png)
 
 ### Description Two
 
 ##### Easily noticed five popular candidate year long. Sanders, Rubio, Cruz, Hillary, Benjamin from the top. Interesting thing is End of April, It looks like three candidates left on the election, Sanders, Cruz, Hillary, which are not true. There still three more candidates faintly contributed, Donald, Rubio, Kasick.
 ##### On the right side of the plot, Benjamin was steadily contributed but there are not big amount of money. He might be supported by blue collar as well as Sanders. As I mentioned before I don't know politics well. Evertyhing is just as I see in the plot. Otherwise, Clinton and Rubio sometimes received high amount of money might be supported by white collar.
-
-```{r}
 
 
 #
@@ -827,6 +852,7 @@ plot_two1
 grid.arrange(count_p, amount_p, nrow = 2)
 
 
+![alt tag](https://github.com/youngkil9999/Project4/blob/master/26.png)
 
 ###Description Three.
 #####Top ten cities have most of people so that it could reflect the index of AL state  candidate support. Birmingham, Huntsville, Mobile, Montgomery. I could say Republican candidates are more popular than democrat in AL and sanders and Ted supported the most in the big cities but the contributed amount almost same as other candidates such as Benjamin, Hillary.
@@ -845,3 +871,4 @@ grid.arrange(count_p, amount_p, nrow = 2)
 ##### There are contribution trend. It could be one way to think of candidate popularity. Some candidate contribution frequency is getting increased such like Ted Cruz, Hillary, Sanders when it close to the election, some didn't at some point like Rubio, Benjamin.
 
 ##### Three people left for the finalized election so far as going through the data plot, Hillary, Sanders, Ted Cruz. But in reality, There is Donald Trump and not the Ted Cruz. So, It is not easy to say that the contribution amount not directly connected to the popularity even though Donal Drump is a special case, the richest guy in USA no need contribution. If I could have a chance to analyze the whole USA data, It could be more interesting than just Alabama but still satisfied with the result and it was fun.
+```{r}
